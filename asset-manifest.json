@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CareJar-react/static/css/main.00e79ce7.css",
+    "main.js": "/CareJar-react/static/js/main.8dd4b72a.js",
+    "static/media/cardio1.jpg": "/CareJar-react/static/media/cardio1.2cb379e1a45bd73358bb.jpg",
+    "static/media/derma.jpg": "/CareJar-react/static/media/derma.e5f49c2fe6582215e4bd.jpg",
+    "static/media/d1.jpg": "/CareJar-react/static/media/d1.646f957890398e14cc38.jpg",
+    "static/media/physc.jpg": "/CareJar-react/static/media/physc.4bd49c8e684b33aa4316.jpg",
+    "static/media/gp.jpg": "/CareJar-react/static/media/gp.9472720c38bdfa85498b.jpg",
+    "static/media/d2.jpg": "/CareJar-react/static/media/d2.1d4d30ee194fba5db3d2.jpg",
+    "static/media/dentist1.jpg": "/CareJar-react/static/media/dentist1.c05c293ebfef193af4f5.jpg",
+    "static/media/d3.jpg": "/CareJar-react/static/media/d3.6926cf34e28cc8707329.jpg",
+    "static/media/gyno.jpg": "/CareJar-react/static/media/gyno.692d204c230aa1136733.jpg",
+    "static/media/bone.jpg": "/CareJar-react/static/media/bone.7d8a2f1cef7b96ecc476.jpg",
+    "static/media/thumb.svg": "/CareJar-react/static/media/thumb.d3ef8096577666e6f6e061e09e2b1f2d.svg",
+    "static/media/calen.svg": "/CareJar-react/static/media/calen.0a083a61eb5ea17979286d77cb8338b2.svg",
+    "index.html": "/CareJar-react/index.html",
+    "main.00e79ce7.css.map": "/CareJar-react/static/css/main.00e79ce7.css.map",
+    "main.8dd4b72a.js.map": "/CareJar-react/static/js/main.8dd4b72a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00e79ce7.css",
+    "static/js/main.8dd4b72a.js"
+  ]
+}
