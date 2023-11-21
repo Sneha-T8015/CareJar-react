@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Doctor from './components/Doctor';
+import NavBar from './components/Navbar';
 
 function App() {
+  const [activeComponent, setActiveComponent] = useState('header'); // Initial active component
+
+  const handleNavbarClick = (component) => {
+    setActiveComponent(component);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <div className='p-4 w-full flex justify-center'>
+          <NavBar onNavbarClick={handleNavbarClick} />
+        </div>
+        <div className='py-12'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/doctor" element={<Doctor />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
